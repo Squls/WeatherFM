@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import json
 import requests
 import os
+import threading
 
 load_dotenv()
 
@@ -51,4 +52,8 @@ def getData():
     else:
         getData()
         
-getData()
+def getTimer():
+    threading.Timer(60.0, getTimer).start()
+    getData()
+        
+getTimer()
