@@ -1,10 +1,10 @@
 # WeatherFM
 
-A Raspberry Pi weather repeater using Geonames, Open Weather Map and GTTS to generate weather reports from random locations.
+A Raspberry Pi weather repeater using Geonames, Open Weather Map and GTTS to generate audio weather reports from random locations.
 
 ## Dependencies
 
-This was relys on [PiRate Radio](https://github.com/Make-Magazine/PirateRadio) following the accompanying tutorial found at [Make Projects](https://makezine.com/projects/raspberry-pirate-radio/).
+This relys on [PiRate Radio](https://github.com/Make-Magazine/PirateRadio) following the accompanying tutorial found at [Make Projects](https://makezine.com/projects/raspberry-pirate-radio/).
 
 ## Setup
 
